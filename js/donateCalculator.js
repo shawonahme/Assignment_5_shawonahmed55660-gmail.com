@@ -6,7 +6,7 @@ function mydonatFunction(DonateBtn1,DonateAmout1,TotalDonate,UsesBalance,Places)
         let useBalance = document.getElementById(UsesBalance);
        
         
-        if(totalDonAmount < 0){
+        if(totalDonAmount <= 0){
               return  alert("please donate valid amount");
         }
         else if( Number.isNaN(totalDonAmount) ){
