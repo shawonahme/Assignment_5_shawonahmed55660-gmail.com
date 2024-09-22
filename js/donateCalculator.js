@@ -28,6 +28,9 @@ function mydonatFunction(DonateBtn1,DonateAmout1,TotalDonate,UsesBalance,Places)
             amout.value =''
             showmodal.showModal()
 
+
+            //histroy create program start here
+
             const histtoryBar = document.getElementById('historyBar');
            const historyBarCon = document.createElement('div');
            historyBarCon.classList.add('my-8','border-[1px]', 'p-4','rounded-lg')
