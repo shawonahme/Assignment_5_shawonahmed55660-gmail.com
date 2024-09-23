@@ -7,18 +7,18 @@ function mydonatFunction(DonateBtn1,DonateAmout1,TotalDonate,UsesBalance,Places)
        
         
         if(totalDonAmount <= 0){
-              return  alert("please donate valid amount");
+              return  alert("Please Donate Valid Amount");
         }
         else if( Number.isNaN(totalDonAmount) ){
 
-            return alert("enter a number amout")
+            return alert("Enter A Number Of Amount")
         }
           else{
           
 
             if(parseFloat(useBalance.innerText) < totalDonAmount){
                     
-                return alert("balance is not avable");
+                return alert("Balance Is   0  Please Add Balance");
                 
             }
             useBalance.textContent = parseFloat(useBalance.innerText) - totalDonAmount;
