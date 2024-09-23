@@ -18,7 +18,7 @@ function mydonatFunction(DonateBtn1,DonateAmout1,TotalDonate,UsesBalance,Places)
 
             if(parseFloat(useBalance.innerText) < totalDonAmount){
                     
-                return alert("Balance Is   0  Please Add Balance");
+                return alert(`${totalDonAmount} Tk Is Not available Current Balance`);
                 
             }
             useBalance.textContent = parseFloat(useBalance.innerText) - totalDonAmount;
